@@ -1,0 +1,18 @@
+{
+    "project_name":       "bootloader",
+    "project_path":       "C:/Users/876661/Desktop/esp-idf/components/bootloader/subproject",
+    "build_dir":          "C:/Users/876661/Documents/Advanced_Telecom/Practical/esp32-tutorial/02_wifi_connection/build/bootloader",
+    "config_file":        "C:/Users/876661/Documents/Advanced_Telecom/Practical/esp32-tutorial/02_wifi_connection/sdkconfig",
+    "config_defaults":    "",
+    "app_elf":            "bootloader.elf",
+    "app_bin":            "bootloader.bin",
+    "git_revision":       "v3.3",
+    "phy_data_partition": "",
+    "monitor_baud" : "115200",
+    "config_environment" : {
+        "COMPONENT_KCONFIGS" : " C:/Users/876661/Desktop/esp-idf/components/efuse/Kconfig C:/Users/876661/Desktop/esp-idf/components/esp32/Kconfig C:/Users/876661/Desktop/esp-idf/components/log/Kconfig C:/Users/876661/Desktop/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS_PROJBUILD" : " C:/Users/876661/Desktop/esp-idf/components/bootloader/Kconfig.projbuild C:/Users/876661/Desktop/esp-idf/components/esptool_py/Kconfig.projbuild C:/Users/876661/Desktop/esp-idf/components/partition_table/Kconfig.projbuild"
+    },
+    "build_components" : [ "soc", "esp32", "log", "bootloader", "spi_flash", "micro-ecc", "efuse", "bootloader_support", "main", "esptool_py", "partition_table" ],
+    "build_component_paths" : [ "C:/Users/876661/Desktop/esp-idf/components/soc", "C:/Users/876661/Desktop/esp-idf/components/esp32", "C:/Users/876661/Desktop/esp-idf/components/log", "C:/Users/876661/Desktop/esp-idf/components/bootloader", "C:/Users/876661/Desktop/esp-idf/components/spi_flash", "C:/Users/876661/Desktop/esp-idf/components/micro-ecc", "C:/Users/876661/Desktop/esp-idf/components/efuse", "C:/Users/876661/Desktop/esp-idf/components/bootloader_support", "C:/Users/876661/Desktop/esp-idf/components/bootloader/subproject/main", "C:/Users/876661/Desktop/esp-idf/components/esptool_py", "C:/Users/876661/Desktop/esp-idf/components/partition_table" ]
+}
